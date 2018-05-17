@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+* {margin: 0; padding: 0;}
+*:before {
+	box-sizing: inherit;
+}
+.header {
+	margin-bottom: 0 !important;
+}
+.header-navbar {
+	padding: 0 !important;
+}
+.header-navbar nav {
+	line-height: 61px;
+	background-color: #fff;
+}
+.header-navbar .nav-wrapper a {
+	color: #3b5bb9;
+}
+#nav-top li a {
+	position: relative !important;
+	-webkit-transition: .5s all ease-out !important;
+    -moz-transition: .5s all ease-out !important;
+    transition: .5s all ease-out !important;
+    border-bottom: 3px solid transparent !important;
+}
+#nav-top li a.active {
+    border-bottom: 3px solid #3b5bb9 !important;
+}
+#nav-top li a i {
+	margin-top: -10px;
+}
+#nav-top li>a::before {
+	content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transition: transform .5s, background-color .5s;
+}
+#nav-top li>a::before {
+	background-color: #3b5bb9;
+}
+#nav-top li>a:hover::before {
+	transform: scaleX(1);
+}
+.content-slider {
+	padding: 0 !important;
+}
+.content-slider .caption h3 {
+	font: 4rem 'Dosis', sans-serif;
+}
+.content-slider .indicator-item.active {
+	background-color: #3b5bb9 !important;
+}
+.sobre-titles, .portfolio-titles, .contato-titles {
+	width: 14rem;
+	margin: 0 auto 2.3333333333333335rem auto;
+	border-bottom: 2px solid #3b5bb9;
+}
+.content-sobre .sobre-body p.center-align {
+	font-size: 1.8rem;
+}
+.content-sobre .sobre-card {
+	margin: 1.3333333333333333rem auto .6666666666666666rem auto;
+}
+.content-sobre .sobre-card .card-content p {
+	font-size: 1.2rem;
+}
+.content-portfolio .portfolio-body p.center-align {
+	font-size: 1.8rem;
+	margin-bottom: 1.3333333333333333rem;
+}
+.portfolio-card .card-action a {
+	background-color: #3b5bb9;
+}
+.portfolio-card .card-action a:hover {
+	background-color: rgba(59, 91, 185, 0.7);
+}
+.contato-form {
+	margin: 0 auto 0 auto !important;
+}
+.contato-box-submit button {
+	background-color: #3b5bb9 !important;
+}
+.page-footer {
+	background-color: #3b5bb9 !important;
+}
+.page-footer a {
+	color: #000;
+}
